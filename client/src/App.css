@@ -8,7 +8,7 @@
 
 }
 .mb-3 {
-  border:2px solid red;
+  /* border:2px solid red; */
   background-color: #000;
 }
 #offcanvasNavbarLabel-expand-sm,
@@ -41,17 +41,28 @@ span .nav-links {
 }
 .container-content {
   background-color: white;
-  border:2px solid red;
+  /* border:2px solid red; */
+}
+.container-content .hero {
+  background-image: url("../public/img/teemo-banner.webp");
+  height: 125px;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  /* justify-content: left; */
+  color:#fff;
   padding: 20px;
 }
 .container-content div {
-  border:2px solid red;
-  height:400px;
+  /* border:2px solid red; */
+  /* height:400px; */
+  /* padding-left: 20px; */
+
 }
 .links {
   display: flex;
   text-align: start;
-  padding: 5px 0px;
+  padding: 10px 0px;
   margin-left:20px;
 }
 .links a {
@@ -59,4 +70,86 @@ span .nav-links {
   color: #ADACAA;
   font-size: 0.7rem;
 }
+.container-content.apparel .shop-by-category {
+  height: 150px;
+  background-color: #fafafa;
+  /* display: flex; */
+  /* text-align: start; */
+  /* justify-content: start; */
+}
+.shop-by-category div {
+  height:fit-content;
+  padding-left: 20px;
+}
+.shop-by-category div p {
+  display: flex;
+  justify-content: start;
+  padding-top: 10px;
+  /* border: 2px solid red; */
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+.shop-by-category div ul {
+  display: flex;
+  justify-content: start;
+}
+.shop-by-category ul {
+  /* border:2px solid red; */
+  display: flex;
+  list-style-type: none;
+  gap:10px;
+  justify-content: start;
+  padding:0;
+}
+.shop-by-category li {
+  height:85px;
+  width:85px;
+  font-size: 0.7rem;
+  text-align: start;
+  padding:5px;
+  background-color: #f2f2f2;
+}
+.filters {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  padding:0px 20px;
+  border: 2px solid red;
+  align-items: center;
+ font-size: 0.8rem;
+}
+.filters button {
+  justify-content: center;
+ border-radius: 25px;
+ width: 100px;
+ height:35px;
+ background-color: #cd3d38;
+ color:#fff;
+ border:none;
+ letter-spacing: 0.1rem;
+}
 
+.filters select {
+  border: 2px solid red;
+  width: 100px;
+}
+.products-container {
+  background-color: #f2f2f2;
+
+  border:2px solid blue;
+}
+.products img {
+  height: 350px;
+  border: 2px solid red;
+}
+
+.products-info span {
+  display: block;
+  flex-wrap: wrap;
+  text-align: start;
+  font-size: 0.75rem;
+}
+.products {
+display: flex;
+/* flex-direction: column; */
+}
